@@ -1,0 +1,100 @@
+/*color #232745
+#2c9f9f
+#313864
+*/
+
+body {
+  background-color: #232745;
+  color: white;
+}
+
+header {
+  background-color: #2d3257;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.kategori-list__item {
+  background-color: #313864;
+  border-radius: 10px;
+}
+
+.kategori-list__item {
+  object-fit: contain;
+}
+
+.kategori-list__item:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.jumbotron-first {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.card,
+.card-body {
+  background-color: #1e2d4d;
+}
+
+.kelas-list__first {
+  background-color: #343b6a;
+}
+
+.card-title {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron-bg {
+  background-color: #343b6a;
+}
+
+.btn-load {
+  color: white;
+  background-color: transparent;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-load:hover {
+  color: white;
+}
+
+footer {
+  background-color: #1c2039;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+  border: none;
+  font-size: 13px;
+}
+
+/*.no-gutters {
+	border-bottom: 1px solid #1e2d4d !important;
+}*/
+
+@media (max-width: 768px) {
+  .kategori-list {
+    overflow-x: scroll;
+  }
+
+  .list-class {
+    overflow-x: scroll;
+  }
+}
